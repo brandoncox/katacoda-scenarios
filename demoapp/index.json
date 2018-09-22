@@ -1,7 +1,9 @@
 {
   "title": "3scale Installation Scenario",
-  "description": "",
+  "description": "This is ",
+  "time": "2 minutes",
   "details": {
+    "intro": { "courseData": "assets/createFiles.sh" },
     "steps": [
       {
         "title": "Step 1",
@@ -24,7 +26,7 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "editor-terminal"
   },
   "backend": {
     "imageid": "openshift"
