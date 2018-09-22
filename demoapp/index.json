@@ -30,6 +30,7 @@
     "uilayout": "editor-terminal"
   },
   "backend": {
-    "imageid": "openshift"
+    "trainingid": "openshift-3-10",
+    "imageid": "openshift-3-10", "port": 8443
   }
 }
