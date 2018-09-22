@@ -1,9 +1,8 @@
 {
   "title": "3scale Installation Scenario",
-  "description": "This is ",
-  "time": "2 minutes",
+  "description": "This is Intro of how to install 3scale",
+  "time": "20 minutes",
   "details": {
-    "intro": { "courseData": "assets/createFiles.sh" },
     "steps": [
       {
         "title": "Step 1",
@@ -19,7 +18,8 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "courseData": "assets/createFiles.sh"
     },
     "finish": {
       "text": "finish.md"

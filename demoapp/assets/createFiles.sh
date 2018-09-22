@@ -1,2 +1,1 @@
-mkdir /tmp/data
-touch /tmp/data/jerk.txt
+oc new-project 3scale
