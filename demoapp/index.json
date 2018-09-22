@@ -1,6 +1,6 @@
 {
-  "title": "Just a Demo",
-  "description": "Justa demoadfasdfasdfasdfasdf",
+  "title": "3scale Installation Scenario",
+  "description": "",
   "details": {
     "steps": [
       {
@@ -27,6 +27,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "docker"
+    "imageid": "openshift"
   }
 }
