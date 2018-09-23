@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: pv0002
+spec:
+  capacity:
+    storage: 1Gi
+  accessModes:
+  - ReadWriteOnce
+  hostPath:
+    path: /tmp/02
+  persistentVolumeReclaimPolicy: Recycle
+  claimRef:
+    name: claim2
+    namespace: 3scale

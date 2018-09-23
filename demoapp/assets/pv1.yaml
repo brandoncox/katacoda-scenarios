@@ -4,11 +4,12 @@ metadata:
   name: pv0001
 spec:
   capacity:
-    storage: 1GB
+    storage: 1Gi
   accessModes:
-    - ReadWriteOnce
-    - ReadOnlyMany
-    - ReadWriteMany
-  persistentVolumeReclaimPolicy: Recycle
+  - ReadWriteOnce
   hostPath:
     path: /tmp/01
+  persistentVolumeReclaimPolicy: Recycle
+  claimRef:
+    name: claim1
+    namespace: 3scale
