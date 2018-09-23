@@ -10,6 +10,3 @@ spec:
   hostPath:
     path: /tmp/04
   persistentVolumeReclaimPolicy: Recycle
-  claimRef:
-    name: claim4
-    namespace: 3scale
